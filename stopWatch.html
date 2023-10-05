@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch App</title>
+    <link rel="stylesheet" href="../../MDB/css/bootstrap.css">
+    <link rel="stylesheet" href="../../MDB/css/mdb.css">
+    <style>
+        body{
+            background: linear-gradient(to right, #ff416c, #ff4b2b);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="card">
+                    <div class="card-header bg-success text-center p-3">
+                        <div class="row align-items-center">
+                            <div class="col text-white">
+                                <h1 class="text-white text-center font-weight-bold">Stop Watch</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body p-5">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="text-center">
+                                    <span id="min">00</span>
+                                    <span id="sec">00</span>
+                                    <span id="m-sec">00</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-footer bg-light p-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <button class="btn btn-primary font-weight-bold" id="start-btn">Start</button>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-warning font-weight-bold" id="stop-btn">Stop</button>
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-danger font-weight-bold" id="reset-btn">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
